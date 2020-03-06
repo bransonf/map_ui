@@ -1,0 +1,43 @@
+/* Main Style Sheet */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 5px gray;
+    position: relative;
+    z-index: 2;
+}
+
+/*#left-panel {
+    height: calc(100vh - 50px - 20px);
+    width: 20vw;
+    top: 50px;
+    position: absolute;
+    background-color: orange;
+    box-shadow: 2px 2px 5px gray;
+}*/
+
+#right-panel {
+    height: calc(100vh - 50px - 20px);
+    width: 33vw;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: orange;
+    box-shadow: 2px 2px 5px gray;
+}
+
+#footer {
+    height: 20px;
+    width: 100%;
+    background-color: pink;
+    position: absolute;
+    bottom: 0;
+}
